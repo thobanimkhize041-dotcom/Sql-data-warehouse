@@ -48,6 +48,10 @@ CREATE TABLE bronze.crm_sales_details(
 	sls_price INT
 );
 GO
+IF OBJECT_ID('bronze.erp_CUST_AZ12', 'U') IS NOT NULL
+  DROP TABLE bronze.erp_CUST_AZ12s;
+
+GO
 
 CREATE TABLE bronze.erp_CUST_AZ12(
 	CID NVARCHAR(50),
@@ -55,10 +59,16 @@ CREATE TABLE bronze.erp_CUST_AZ12(
 	GEN  VARCHAR
 );
 GO
+IF OBJECT_ID('bronze.erp_LOC_A101', 'U') IS NOT NULL
+  DROP TABLE bronze.erp_LOC_A101;
+GO
 CREATE TABLE bronze.erp_LOC_A101(
 	CID NVARCHAR(50),
 	CNTRY NVARCHAR(50)
 );
+GO
+IF OBJECT_ID('bronze.erp_PX_CAT_G1V2', 'U') IS NOT NULL
+  DROP TABLE bronze.erp_PX_CAT_G1V2;
 GO
 
 CREATE TABLE bronze.erp_PX_CAT_G1V2(
