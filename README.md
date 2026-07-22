@@ -19,4 +19,3 @@ Developing a modern data warehouse using the sql server to consolidate sales dat
 - **Documentation**
 
 ### BI: Analytics and Reporting( Data analysis)
-
