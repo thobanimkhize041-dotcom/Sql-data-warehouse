@@ -16,6 +16,16 @@ Developing a modern data warehouse using the sql server to consolidate sales dat
 - **Data quality**: Cleanse and resolve data quality issues.
 - **Integration**: Combine both sources into user-friendly data model designed for analytical queries,
 - **Scope**: Focus on the latest dataset only; historisation of data is not required.
-- **Documentation**
+- **Documentation**:Provide clear documentation of the data model to support both business stake holders and analytics teams.
 
 ### BI: Analytics and Reporting( Data analysis)
+#### Objectives
+Develop SQL-based based analytics to into:
+-**Customer Behavior**
+-**Product Performance**
+-**Sales Trends**
+
+These insights empower stakeholders with key business metrics, enabling strategic decision making.
+
+##License
+This project is licensed under [MIT License](LICENSE)
